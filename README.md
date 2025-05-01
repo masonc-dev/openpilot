@@ -2,47 +2,6 @@
 
 <h1>openpilot</h1>
 
-<h1>Diagram</h1>
-<p>
-  +-------------------------+
-|     Sensor Inputs       |
-|-------------------------|
-| - Front-facing camera   |
-| - IMU (gyroscope, accel)|
-| - GNSS (GPS) receiver   |
-| - Steering angle sensor |
-| - CAN bus data          |
-+-----------+-------------+
-            |
-            v
-+-------------------------+
-| Perception & Localization|
-|-------------------------|
-| - Neural network        |
-|   processes sensor data |
-|   to perceive           |
-|   environment           |
-+-----------+-------------+
-            |
-            v
-+-------------------------+
-|   Planning & Control    |
-|-------------------------|
-| - Trajectory planning   |
-| - Steering commands     |
-| - Acceleration/brake    |
-|   commands              |
-+-----------+-------------+
-            |
-            v
-+-------------------------+
-|   Vehicle Actuators     |
-|-------------------------|
-| - Steering mechanisms   |
-| - Throttle control      |
-| - Braking systems       |
-+-------------------------+
-</p>
 
 <p>
   <b>openpilot is an operating system for robotics.</b>
