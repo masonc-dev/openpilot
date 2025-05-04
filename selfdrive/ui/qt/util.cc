@@ -26,11 +26,11 @@ QString getVersion() {
 }
 
 QString getBrand() {
-  return QObject::tr("openpilot");
+  return QObject::tr("openpilot-fork");
 }
 
 QString getUserAgent() {
-  return "openpilot-" + getVersion();
+  return "openpilot-fork-" + getVersion();
 }
 
 std::optional<QString> getDongleId() {
