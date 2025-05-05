@@ -18,7 +18,7 @@ static constexpr vec3 DEFAULT_FACE_KPTS_3D[] = {
 
 // Colors used for drawing based on monitoring state
 static const QColor DMON_ENGAGED_COLOR = QColor::fromRgbF(0.1, 0.945, 0.26);
-static const QColor DMON_DISENGAGED_COLOR = QColor::fromRgbF(0.545, 0.545, 0.545);
+static const QColor DMON_DISENGAGED_COLOR = QColor::fromRgbF(1.0, 0.0, 0.0);  // Pure red
 
 DriverMonitorRenderer::DriverMonitorRenderer() : face_kpts_draw(std::size(DEFAULT_FACE_KPTS_3D)) {
   dm_img = loadPixmap("../assets/img_driver_face.png", {img_size + 5, img_size + 5});
