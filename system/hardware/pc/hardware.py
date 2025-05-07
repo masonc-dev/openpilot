@@ -24,7 +24,7 @@ class Pc(HardwareBase):
     return f"{random.randint(0, 1 << 32):015d}"
 
   def get_serial(self):
-    return "cccccccc"
+    return "pc_no_serial"
 
   def get_network_info(self):
     return None
